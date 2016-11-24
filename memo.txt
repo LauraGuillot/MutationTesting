@@ -1,0 +1,10 @@
+COBERTURA COMMAND LINE USAGE
+
+1)Intrument classes
+C:\cobertura\cobertura-instrument.bat --destination C:\Users\Laura\Desktop\Mutation\data\Project1\Base\inst C:\Users\Laura\Desktop\Mutation\data\Project1\Base\old\*
+
+2)Run test
+java -cp C:\cobertura\cobertura-2.1.1.jar;C:\cobertura\lib\*;C:\mujava\junit.jar;C:\mujava\hamcrest.jar;C:\Users\Laura\Desktop\Mutation\data\Project1\Base\inst\;C:\Users\Laura\Desktop\Mutation\data\Project1\Base\old\ -Dnet.sourceforge.cobertura.datafile=C:\Users\Laura\Desktop\Mutation\data\Project1\Base\cobertura.ser org.junit.runner.JUnitCore  test.TriangleTest
+
+3)Report
+C:\cobertura\cobertura-report.bat --format html --datafile C:\Users\Laura\Desktop\Mutation\data\Project1\Base\cobertura.ser --destination C:\Users\Laura\Desktop\Mutation\data\Project1\Base\report  C:\Users\Laura\Desktop\Mutation\data\Project1\Base\old

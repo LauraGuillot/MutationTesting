@@ -1,0 +1,24 @@
+.modal{
+    text-align: center;
+}
+.modal-header { 
+    background-color: #05D956 !important; 
+}
+
+.type-info .modal-header{ 
+    background-color: #03CDB2 !important; 
+}
+
+.btn-info{
+    background-color: #03CDB2;
+    border-color: #03CDB2;
+}
+
+.btn-info:hover{
+    background-color: #02A691;
+   border-color: #02A691;
+}
+
+#reportHeader{
+     background-color: #03CDB2 !important; 
+}

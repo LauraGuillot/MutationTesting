@@ -1,0 +1,113 @@
+@import url("source-viewer.css");
+
+.hidden {
+    display: none;
+}
+
+a.dfn:active, a.dfn:link, a.dfn:visited {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.dfn{
+    color: #fff !important;
+    text-decoration: none;
+}
+.dfn:hover{
+    color: #fff !important;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5em;
+}
+
+h5 {
+    margin-top: 0.5em;
+    color:#4E5050;
+    font-size: 12pt;
+}
+
+div.percentgraph
+{
+    background-color: #F8454E;
+    border: none;
+    height: 1.3em;
+    margin: 0px;
+    padding: 0px;
+    width: 100px;
+}
+
+div.percentgraph div.greenbar
+{
+    background-color: #14EC71;
+    height: 1.3em;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.percentgraph div.na
+{
+    background-color: #eaeaea;
+    height: 1.3em;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.percentgraph span.text
+{
+    display: block;
+    position: absolute;
+    text-align: center;
+    width: 100px;
+}
+
+div.separator {
+    height: 10px;
+}
+
+.src, .nbHits, .numLine{
+    text-align:left;
+    font-size: 10pt !important;
+}
+
+.footer{
+    display:none;
+}
+
+.report{
+    text-align: center;
+    border-collapse:collapse;
+    width:100%;
+    margin-bottom:10px;
+    margin-top:10px;
+    font-size:11pt;
+    border : 1px solid #fff;
+}
+.report td{
+    background-color: #eee;
+    border : 1px solid #fff;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.heading{
+    background-color: #02A691 !important;
+    color:white;
+}
+.percentgraph{
+    border:none !important;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.percentgraph tr{
+   width:100%;
+}
+.percentgraph td{
+   width:50%;
+}
+

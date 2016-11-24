@@ -1,0 +1,35 @@
+.button{
+    display: inline-block;
+    min-height:30px;
+    text-align: center;
+    text-decoration: none;
+    outline:none;
+    cursor: pointer;
+    border:none;
+    color:#fff;
+    font-weight: bold;
+     background-color: #03CDB2;
+}
+.button:hover{
+   background-color: #02A691;
+}
+
+#displayClass{
+    font-size: 10pt;
+}
+.choice{
+    position:absolute;
+    width:47.5%;
+}
+#equi{
+    margin-left:48%;
+}
+
+
+.round{
+    border-radius:100%;
+    -moz-border-radius: 100%;
+    width:35px;
+     height:35px;
+
+}

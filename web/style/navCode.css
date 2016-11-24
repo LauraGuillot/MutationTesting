@@ -1,0 +1,30 @@
+li{
+    text-align:left;
+    list-style-type:none;
+}
+
+a, a:visited, a:link, .quasilink{
+    background-color: transparent;
+    color: #4E5050;
+}
+
+.folder{
+    font-size: 12pt;
+}
+.folder:hover {
+    color: #03CDB2;
+    background-color: transparent;
+}
+.glyphicon-folder-open{
+    color: #03CDB2;
+}
+
+.file:visited{
+    color:#02A691;  
+}
+.file{
+    color:#02A691;  
+}
+.file:hover{
+    color: #03CDB2;
+}
